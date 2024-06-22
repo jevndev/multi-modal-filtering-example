@@ -9,7 +9,7 @@ test:
 	./.venv/bin/pytest tests
 
 run:
-	./.venv/bin/python -m package
+	./.venv/bin/python -m multi_modal_filtering_example
 
 clean:
 	rm -rf ./.venv
