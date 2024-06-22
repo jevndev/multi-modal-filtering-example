@@ -2,6 +2,8 @@
 
 A small demo of different classes of multi modal filtering techniques
 
+**This project is currently undergoing development and is not in its minimal working state yet**
+
 ## Description
 
 In this analysis, various state estimation techniques are applied to a simulated target and their accuracies are compared. The target to be filtered loosely follows three modes; staying stationary, 
