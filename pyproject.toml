@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 100
+
+target-version = "py312"
+fixable = ["ALL"]
+
+ignore = ["F722"]
+
+[tool.ruff.format]
+quote-style = "double"
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402"]
+"**/{tests,docs,tools}/*" = ["E402"]
